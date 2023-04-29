@@ -411,6 +411,8 @@ how to fix it
 thanks :)
 
 ===================
-This text use creative commone license
+
+
+This text use creative common license
 
 ==========================
