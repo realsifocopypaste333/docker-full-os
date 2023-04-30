@@ -43,7 +43,7 @@ Share socket and config file with docker and set environment variables PULSE_SER
 
 c. run this comman in terminal 
 
-pactl load-module module-native-protocol-unix socket=/home/realsifo/Downloads/pulse/pulseaudio.socket
+pactl load-module module-native-protocol-unix socket=/home/user/pulse/pulseaudio.socket
 
 
 =============
