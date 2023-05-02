@@ -253,7 +253,9 @@ wine / lutris sometime will error in docker full os, how to fix it
 5. add key  X11 DRIVER
 6. add string "UseXVidMode"="N"
 7. add string UseXVidMode  -------> edit the VALUE to N
-8. close wine
+8. add string "UseXRandR"="N"
+9. add string UseXRandR  -------> edit the VALUE to N
+10. close wine
 
 thanks :)
 
