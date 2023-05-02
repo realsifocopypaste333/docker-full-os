@@ -32,7 +32,7 @@ pactl load-module module-native-protocol-unix socket=/home/user/pulse/pulseaudio
 ```sh
 sudo docker images
 ```
-7. run the docker image with
+6. run the docker image with
 ```sh
 docker run -ti --device=/dev/dri:/dev/dri \
                --privileged --cap-add=ALL --device /dev/snd \
@@ -46,8 +46,8 @@ docker run -ti --device=/dev/dri:/dev/dri \
                --env="DISPLAY" -e XAUTHORITY=/root/.Xauthority \
                --name dockerfullos-001 imageid
 ```
-8. and the kali linux docker bash terminal with appears
-9. install apps that we need
+7. and the kali linux docker bash terminal with appears
+8. install apps that we need
 ```sh
 apt update
 apt full-upgrade -y
@@ -71,7 +71,7 @@ passwd
 adduser username
 usermod -aG sudo username
 ```
-10. to save the container into image
+9. to save the container into image
   - open new terminal
   - check the container id
 ```sh
