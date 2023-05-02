@@ -244,7 +244,7 @@ dockerfullos-003 = 192.168.43.1:53
 ```
 enjoy the docker full os for cloud computing :), all the apps fro docker full os will run natively in kdrc in the client compuputer :), for gaming we can use emulator (ps1, ps2, psp, mame etc) , steam , lutris, wine etc :)
 
-## wine /lutris fix
+## wine / lutris fix
 wine / lutris sometime will error in docker full os, how to fix it
 1. open lutris
 2. setting the game with lutris
