@@ -88,7 +88,7 @@ it is very complex steps and needs long time :), so please make official full os
 ## simple use case for docker full os
 
 ### docker full os can make better gaming expirence
-because  docker full os kali linux rolling (debian testing) have newer mesa driver than debian stable , so it make game in docker full os better the step are :
+because  docker full os kali linux rolling (debian testing) have newer mesa driver than debian stable , so it make game in docker full os better. the step are :
   - run the  ali-linux-docker-full-os
 ```sh
 sudo docker run -ti --device=/dev/dri:/dev/dri \
@@ -108,9 +108,9 @@ sudo docker run -ti --device=/dev/dri:/dev/dri \
   - setting the lutris and play the game :)
 
 ### docker full os can sutitude the vm
-because docker full os is a native os like chroot so it has a native performanc like the host, how to do it ?, it very imple
+because docker full os is a native os like chroot so it has a native performance like the host, how to do it ?, it very imple
 
-#### method A, acces all docker full os apps fro host
+#### method A, acces all docker full os apps from host
 ```sh
 # run the immage
 sudo docker run -ti --device=/dev/dri:/dev/dri \
@@ -130,8 +130,8 @@ we can use rofi or cairo-dock to lunch the docker full os apps
 - using rofi
   1. type rofi --show run
   2. select the apps ex =vlc
-  3. vlc docker full os apps  with run directly the host os
-  4. play some move / videos / audio with that vlc :)
+  3. vlc docker full os apps  with run directly from the host os
+  4. play some movies / videos / audio with that vlc :)
 - using cairo-dock
   1. type cairo-dock
   2. cairo-dcok will launch to host os
