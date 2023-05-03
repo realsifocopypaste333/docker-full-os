@@ -161,6 +161,8 @@ nano /etc/xrdp/xrdp.ini
 # it will make the xrdp ip 127.0.0.1:3351
 # restart xrdp server
 service xrdp restart
+# start pulse audio
+pulseaudo --start
 ```
 3. install kdrc (rdp client) in host os
 4. conect the xrdp using kdrc with the xrpd ip
@@ -168,7 +170,7 @@ service xrdp restart
 ```text
 # kdc setting
 screen setting = 1024x800
-audio = in this omputer --- pulse audio
+audio = in this computer --- pulse audio
 32bit color :)
 ```
 5. enjoy :) we can use docker full os with full gui in krdc :)
